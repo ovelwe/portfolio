@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.googleapis.com/css?family=Inter:700);
+
+html, body {
+
+    background-color: #0C0C0C;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+span {
+    color: #5F8BFF;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  transition: color 0.4s ease, transform 0.2s ease;
+}
+
+a:hover {
+color: #A3C2FF;
+}
+
+a:active {
+  transform: translateY(1px);
+}
+
+svg{
+fill: currentColor;
+transition: fill 0.3s ease;
+}
+
+.text-glow-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .text-glow-container {
+    position: relative;
+  }
+
+  .text-glow {
+    position: relative;
+    z-index: 1;
+  }
