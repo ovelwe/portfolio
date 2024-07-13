@@ -3,7 +3,7 @@ import React from 'react'
 const Tools = () => {
   return (
     <div className='w-full flex flex-col items-center gap-[70px]'>
-      <h2 className='xl:text-[40px] md:text-[32px] msm:text-[28px] msm:text-center'><span>Технологии</span> которые я использую</h2>
+      <h2 className='xl:text-[40px] md:text-[32px] msm:text-[28px] msm:text-center'><span className='text-blue'>Технологии</span> которые я использую</h2>
       <ul className='flex flex-row flex-wrap gap-x-[50px] xl:mb-[20px] xl:text-[36px] justify-center'>
         <li><a href="https://react.dev/">React</a></li>
         <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
